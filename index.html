@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Driving Instructions Editor</title>
-<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:wght@400;500;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Pinyon+Script&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
   :root { --gold: #c8a84b; }
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -108,20 +108,20 @@
 
   .card-directions { width: 100%; text-align: center; }
   .card-section-heading {
-    display: block; font-family: 'Cormorant Garamond', Georgia, serif;
-    font-size: 14pt; font-weight: 700; font-variant: small-caps;
-    letter-spacing: 0.07em; color: #000000; margin-top: 5.5mm; margin-bottom: 1.5mm;
+    display: block; font-family: 'Pinyon Script', cursive;
+    font-size: 22pt; font-weight: 400; font-variant: normal;
+    letter-spacing: 0.03em; color: #000000; margin-top: 5.5mm; margin-bottom: 1.5mm;
   }
   .card-section-heading:first-child { margin-top: 0; }
   .card-direction-text {
-    font-family: 'Cormorant Garamond', Georgia, serif; font-size: 10.5pt;
-    font-weight: 400; font-variant: small-caps; letter-spacing: 0.045em;
-    color: #000000; line-height: 1.75;
+    font-family: 'Cormorant Garamond', Georgia, serif; font-size: 11pt;
+    font-weight: 400; font-variant: normal; letter-spacing: 0.03em;
+    color: #000000; line-height: 1.85;
     white-space: pre-line;
   }
 
   @media print {
-    @page { size: A4; margin: 0; }
+    @page { size: A5; margin: 0; }
     body { background: white !important; height: auto !important; overflow: visible !important; }
     .topbar, .editor-panel { display: none !important; }
     .main { display: block !important; overflow: visible !important; }
@@ -135,16 +135,16 @@
     }
     .card {
       box-shadow: none !important;
-      width: 210mm !important;
-      min-height: 297mm !important;
+      width: 148mm !important;
+      min-height: 210mm !important;
       margin: 0 auto !important;
-      padding: 12mm 20mm 25mm 20mm !important;
+      padding: 10mm 15mm 18mm 15mm !important;
       font-size: 1.38 !important;
     }
     .hearts-img { width: 100% !important; }
-    .title-input { font-size: 44pt !important; }
-    .card-section-heading { font-size: 18pt !important; }
-    .card-direction-text { font-size: 13.5pt !important; }
+    .title-input { font-size: 36pt !important; }
+    .card-section-heading { font-size: 22pt !important; }
+    .card-direction-text { font-size: 13pt !important; }
   }
 </style>
 </head>
